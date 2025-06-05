@@ -1,4 +1,8 @@
-## Init projetc
+## Init project
+
+Install uv
+`pip install uv`
+
 `uv init <my project>`
 
 `uv add <package>`
@@ -42,5 +46,11 @@ All the available python versions and paths
 Install specific version
 - `uv python install 3.12.0`
 
-Create venv
+Create venv (embora n precise geralmente)
 - `uv venv --python 3.13.0`
+
+
+### Referencias
+- Arjan codes https://www.youtube.com/watch?v=qh98qOND6MI
+- Corey Schafer https://www.youtube.com/watch?v=AMdG7IjgSPM
+- Tech with tim https://www.youtube.com/watch?v=6pttmsBSi8M
