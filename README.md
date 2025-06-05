@@ -49,6 +49,15 @@ Install specific version
 Create venv (embora n precise geralmente)
 - `uv venv --python 3.13.0`
 
+## Scripts
+
+Tambem da pra rodar em scripts sem o pyproject mas nao vi muita vantagem
+Coisas como
+`uv init --script main.py` -> adiciona uma metastring no inicio do script que pode especificar a versao do python e tbm as dependencias
+
+ou ate da pra fazer em escrever as dependencias, so na linha de comando
+
+`uv run main.py --with rich` algo assim
 
 ### Referencias
 - Arjan codes https://www.youtube.com/watch?v=qh98qOND6MI
