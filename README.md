@@ -17,16 +17,22 @@
 
 `uv tool update-shell`
 
-`uv tool install ruff`
- 
+Executa a tool sem instalar
 `uv tool run ruff`
 
 `uv tool run ruff check`
 
 `uvx ruff check`
 
+
+Instala a tool
+`uv tool install ruff`
+
+`uv tool list`
+
 `uv tool upgrade ruff`
 
+`uv tool upgrade --all`
 
 ## Python versions
 
